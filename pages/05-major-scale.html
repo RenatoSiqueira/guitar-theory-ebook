@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>5. A fórmula da escala maior — Violão: do intervalo ao acorde</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <script src="../assets/theory.js" defer></script>
+  <script src="../assets/ebook.js" defer></script>
+</head>
+<body data-root="../" data-page="05-major-scale">
+<main>
+  <header class="chapter-head">
+    <p class="kicker">Parte 3 — Escala maior</p>
+    <h1>A fórmula da escala maior</h1>
+    <p class="lede">A escala maior é a régua de toda a teoria de acordes. Quando uma cifra diz “3”, “5” ou “♭7”, está medindo contra ela. E ela cabe numa fórmula de sete passos.</p>
+  </header>
+
+  <h2>O Dó–Ré–Mi que você já conhece</h2>
+  <p>Cante “Dó, Ré, Mi, Fá, Sol, Lá, Si, Dó”. Isso é a <strong>escala de Dó maior</strong>: são exatamente as sete notas naturais do <a href="01-notes.html">capítulo 1</a>, começando e terminando no Dó.</p>
+  <p><play-notes notes="C4 D4 E4 F4 G4 A4 B4 C5">ouvir a escala de Dó maior</play-notes></p>
+  <p>Lembra que as naturais não estão todas à mesma distância? Os semitons ficam em <strong>E→F</strong> e <strong>B→C</strong>. Começando no Dó, eles caem sempre no mesmo lugar da sequência: entre a 3ª e a 4ª nota, e entre a 7ª e a 8ª.</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Nota</th><td class="c"><strong>C</strong></td><td class="c">D</td><td class="c">E</td><td class="c">F</td><td class="c">G</td><td class="c">A</td><td class="c">B</td><td class="c"><strong>C</strong></td></tr>
+      <tr><th>Passo seguinte</th><td class="c">T</td><td class="c">T</td><td class="c"><strong>st</strong></td><td class="c">T</td><td class="c">T</td><td class="c">T</td><td class="c"><strong>st</strong></td><td class="c">—</td></tr>
+    </table>
+  </div>
+  <p>Daí sai a fórmula (T = tom, st = semitom):</p>
+  <div class="key">
+    <span class="callout-title">Guarde isto</span>
+    <p>Escala maior = <strong>T · T · st · T · T · T · st</strong>. Começando em qualquer nota e seguindo esses passos, você monta a escala maior daquela nota. A nota de partida se chama <strong>tônica</strong>.</p>
+  </div>
+  <p>Numa corda só a fórmula fica visível: as distâncias de 2 casas (tom) e de 1 casa (semitom) aparecem como espaços maiores e menores. Aqui, Dó maior na 2ª corda, a partir do Dó da casa 1:</p>
+  <fret-board root="C" positions="2:1 2:3 2:5 2:6 2:8 2:10 2:12 2:13" from="0" to="13" caption="Dó maior na 2ª corda: 2 casas, 2, 1, 2, 2, 2, 1"></fret-board>
+
+  <h2>Montando outras escalas</h2>
+  <p>Agora é só aplicar a fórmula em outra tônica. Em <strong>Sol maior</strong>:</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Passo</th><td class="c">—</td><td class="c">T</td><td class="c">T</td><td class="c">st</td><td class="c">T</td><td class="c">T</td><td class="c">T</td><td class="c">st</td></tr>
+      <tr><th>Nota</th><td class="c"><strong>G</strong></td><td class="c">A</td><td class="c">B</td><td class="c">C</td><td class="c">D</td><td class="c">E</td><td class="c"><strong>F♯</strong></td><td class="c"><strong>G</strong></td></tr>
+    </table>
+  </div>
+  <p>Até o E tudo bate com as naturais. Mas de E para a próxima nota a fórmula pede <strong>tom</strong>, e E→F é só semitom. Por isso a 7ª nota sobe para <strong>F♯</strong>, que também deixa o semitom final (F♯→G) no lugar certo.</p>
+  <p><play-notes notes="G3 A3 B3 C4 D4 E4 F#4 G4">ouvir Sol maior</play-notes></p>
+  <fret-board root="G" positions="3:0 3:2 3:4 3:5 3:7 3:9 3:11 3:12" from="0" to="12" caption="Sol maior na 3ª corda (Sol solta). Repare onde cai o F♯"></fret-board>
+  <p>Fazendo o mesmo com outras tônicas:</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Escala</th><th class="c">1</th><th class="c">2</th><th class="c">3</th><th class="c">4</th><th class="c">5</th><th class="c">6</th><th class="c">7</th></tr>
+      <tr><th>Dó maior</th><td class="c">C</td><td class="c">D</td><td class="c">E</td><td class="c">F</td><td class="c">G</td><td class="c">A</td><td class="c">B</td></tr>
+      <tr><th>Sol maior</th><td class="c">G</td><td class="c">A</td><td class="c">B</td><td class="c">C</td><td class="c">D</td><td class="c">E</td><td class="c">F♯</td></tr>
+      <tr><th>Ré maior</th><td class="c">D</td><td class="c">E</td><td class="c">F♯</td><td class="c">G</td><td class="c">A</td><td class="c">B</td><td class="c">C♯</td></tr>
+      <tr><th>Mi maior</th><td class="c">E</td><td class="c">F♯</td><td class="c">G♯</td><td class="c">A</td><td class="c">B</td><td class="c">C♯</td><td class="c">D♯</td></tr>
+      <tr><th>Fá maior</th><td class="c">F</td><td class="c">G</td><td class="c">A</td><td class="c">B♭</td><td class="c">C</td><td class="c">D</td><td class="c">E</td></tr>
+      <tr><th>Si♭ maior</th><td class="c">B♭</td><td class="c">C</td><td class="c">D</td><td class="c">E♭</td><td class="c">F</td><td class="c">G</td><td class="c">A</td></tr>
+    </table>
+  </div>
+  <p><play-notes notes="D4 E4 F#4 G4 A4 B4 C#5 D5">ouvir Ré maior</play-notes> <play-notes notes="E3 F#3 G#3 A3 B3 C#4 D#4 E4">ouvir Mi maior</play-notes> <play-notes notes="Bb3 C4 D4 Eb4 F4 G4 A4 Bb4">ouvir Si♭ maior</play-notes></p>
+  <p>Todas soam com a mesma “cara” de Dó–Ré–Mi. É a fórmula que dá essa cara, não as notas em si.</p>
+
+  <h2>Cada letra uma vez só</h2>
+  <p>Em <strong>Fá maior</strong> aparece uma pergunta. Depois de F, G, A, a fórmula pede um <strong>semitom</strong>. Uma casa acima do Lá está a nota que pode se chamar A♯ ou B♭ (enarmônicas). Qual nome usar?</p>
+  <p>A regra: <strong>numa escala de sete notas, cada letra aparece exatamente uma vez</strong>, em ordem. Fá maior precisa usar F G A B C D E. Se escrevêssemos A♯, teríamos dois “A” (A e A♯) e nenhum “B”. Por isso o certo é <strong>B♭</strong>.</p>
+  <p><play-notes notes="F3 G3 A3 Bb3 C4 D4 E4 F4">ouvir Fá maior</play-notes></p>
+  <div class="tip">
+    <span class="callout-title">Por que isso importa</span>
+    <p>Com cada letra uma vez, a 3ª nota sempre é a letra “três acima” da tônica, a 5ª sempre a letra “cinco acima” e assim por diante. É isso que permite dizer “a 3ª de Fá é Lá” sem contar casas. E é o mesmo motivo pelo qual a 3ª menor de Dó se escreve E♭, não D♯.</p>
+  </div>
+  <p>Pelo mesmo motivo, cada tonalidade usa <strong>só sustenidos ou só bemóis</strong>, nunca os dois misturados.</p>
+
+  <h2>Graus: de onde vêm os números 1 a 7</h2>
+  <p>Cada nota da escala é um <strong>grau</strong>, numerado a partir da tônica. Medindo cada grau a partir do 1, aparecem os intervalos do <a href="03-intervals.html">capítulo 3</a>:</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Grau</th><td class="c"><span class="iv iv-root">1</span></td><td class="c"><span class="iv iv-other">2</span></td><td class="c"><span class="iv iv-third">3</span></td><td class="c"><span class="iv iv-other">4</span></td><td class="c"><span class="iv iv-fifth">5</span></td><td class="c"><span class="iv iv-other">6</span></td><td class="c"><span class="iv iv-seventh">7</span></td><td class="c"><span class="iv iv-root">8</span></td></tr>
+      <tr><th>Em Dó</th><td class="c">C</td><td class="c">D</td><td class="c">E</td><td class="c">F</td><td class="c">G</td><td class="c">A</td><td class="c">B</td><td class="c">C</td></tr>
+      <tr><th>Semitons desde o 1</th><td class="c">0</td><td class="c">2</td><td class="c">4</td><td class="c">5</td><td class="c">7</td><td class="c">9</td><td class="c">11</td><td class="c">12</td></tr>
+      <tr><th>Intervalo</th><td class="c">uníssono</td><td class="c">2M</td><td class="c">3M</td><td class="c">4J</td><td class="c">5J</td><td class="c">6M</td><td class="c">7M</td><td class="c">8J</td></tr>
+    </table>
+  </div>
+  <p>Na escala maior, todos os intervalos a partir da tônica são <strong>maiores</strong> ou <strong>justos</strong>. Por isso ela serve de referência: o número sozinho (3, 7) quer dizer “como na escala maior”; com ♭ ou ♯ na frente, quer dizer “um semitom abaixo ou acima disso”.</p>
+  <ul>
+    <li><span class="iv iv-third">3</span> = 3ª maior (4 semitons). <span class="iv iv-third">♭3</span> = 3ª menor (3 semitons).</li>
+    <li><span class="iv iv-fifth">5</span> = 5ª justa (7 semitons). <span class="iv iv-fifth">♭5</span> = 5ª diminuta, <span class="iv iv-fifth">♯5</span> = 5ª aumentada.</li>
+    <li><span class="iv iv-seventh">7</span> = 7ª maior (11 semitons). <span class="iv iv-seventh">♭7</span> = 7ª menor (10 semitons).</li>
+  </ul>
+  <fret-board root="C" formula="1 2 3 4 5 6 7" from="0" to="5" caption="Todas as notas de Dó maior até a casa 5, rotuladas pelo grau. Troque para “nota” para ver os nomes"></fret-board>
+  <p>Daqui em diante, toda fórmula de acorde (<strong>1 3 5</strong>, <strong>1 ♭3 5</strong>, <strong>1 3 5 ♭7</strong>…) é lida assim: pegue a escala maior da tônica, escolha os graus e aplique os ♭ e ♯.</p>
+
+  <h2>Quantos sustenidos e bemóis cada tom tem</h2>
+  <p>Fazendo a fórmula em todas as tônicas, aparece um padrão. As tonalidades com sustenidos andam de <strong>5ª em 5ª</strong> (C → G → D → A → E → B) e ganham um sustenido a cada passo. As com bemóis andam de <strong>4ª em 4ª</strong> (C → F → B♭ → E♭ → A♭) e ganham um bemol a cada passo. Esse desenho é o <strong>ciclo de quintas</strong>.</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Tom</th><th class="c">Qtde.</th><th>Alterações</th></tr>
+      <tr><td>C</td><td class="c">0</td><td>nenhuma</td></tr>
+      <tr><td>G</td><td class="c">1♯</td><td>F♯</td></tr>
+      <tr><td>D</td><td class="c">2♯</td><td>F♯ C♯</td></tr>
+      <tr><td>A</td><td class="c">3♯</td><td>F♯ C♯ G♯</td></tr>
+      <tr><td>E</td><td class="c">4♯</td><td>F♯ C♯ G♯ D♯</td></tr>
+      <tr><td>B</td><td class="c">5♯</td><td>F♯ C♯ G♯ D♯ A♯</td></tr>
+      <tr><td>F</td><td class="c">1♭</td><td>B♭</td></tr>
+      <tr><td>B♭</td><td class="c">2♭</td><td>B♭ E♭</td></tr>
+      <tr><td>E♭</td><td class="c">3♭</td><td>B♭ E♭ A♭</td></tr>
+      <tr><td>A♭</td><td class="c">4♭</td><td>B♭ E♭ A♭ D♭</td></tr>
+    </table>
+  </div>
+  <div class="tip">
+    <span class="callout-title">Atalho</span>
+    <p>Nos tons com sustenido, o último sustenido é sempre o <strong>7º grau</strong> (G maior → F♯; D maior → C♯). Nos tons com bemol, o último bemol é o <strong>4º grau</strong> (F maior → B♭; B♭ maior → E♭). Não precisa decorar a tabela: ela sai da fórmula.</p>
+  </div>
+
+  <div class="warn">
+    <span class="callout-title">Cuidado</span>
+    <p>“Escala maior” e “acorde maior” são coisas diferentes, mas parentes: o acorde de Dó maior é feito com três notas tiradas da escala de Dó maior. É o assunto do <a href="07-triads.html">capítulo 7</a>.</p>
+  </div>
+
+  <section class="exercises">
+    <h2>Exercícios</h2>
+    <ol>
+      <li>Monte a escala de Lá maior com a fórmula.
+        <details class="answer"><summary>Resposta</summary><p>A – B – C♯ – D – E – F♯ – G♯ – A. Três sustenidos (F♯ C♯ G♯), como na tabela.</p></details></li>
+      <li>Em Mi♭ maior, o 4º grau fica uma casa acima do G. Por que ele se chama A♭ e não G♯?
+        <details class="answer"><summary>Resposta</summary><p>Porque cada letra aparece uma vez: E♭ F G A♭ B♭ C D. O “G” já foi usado no 3º grau; o 4º grau tem de ser algum “A”.</p></details></li>
+      <li>Qual é o 3º grau de Ré maior? E o 5º grau de Mi maior?
+        <details class="answer"><summary>Resposta</summary><p>3º de Ré maior: F♯. 5º de Mi maior: B.</p></details></li>
+      <li>Que intervalo existe entre o 1º e o 6º grau da escala maior? Quantos semitons?
+        <details class="answer"><summary>Resposta</summary><p>6ª maior (6M), 9 semitons. Em Dó: C→A.</p></details></li>
+      <li>No violão: toque Ré maior só na 4ª corda, começando com ela solta. Quais casas?
+        <details class="answer"><summary>Resposta</summary><p>0 – 2 – 4 – 5 – 7 – 9 – 11 – 12 (T T st T T T st). As notas são D E F♯ G A B C♯ D.</p></details></li>
+    </ol>
+  </section>
+</main>
+</body>
+</html>

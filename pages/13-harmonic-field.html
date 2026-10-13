@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>13. Campo harmônico maior — Violão: do intervalo ao acorde</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <script src="../assets/theory.js" defer></script>
+  <script src="../assets/ebook.js" defer></script>
+</head>
+<body data-root="../" data-page="13-harmonic-field">
+<main>
+  <header class="chapter-head">
+    <p class="kicker">Parte 5 — Harmonia</p>
+    <h1>Campo harmônico maior</h1>
+    <p class="lede">Por que uma música em Dó usa justamente C, Dm, Em, F, G e Am? Porque são os acordes que nascem da própria escala de Dó. Esse conjunto se chama campo harmônico.</p>
+  </header>
+
+  <h2>A ideia: acordes feitos só com notas da escala</h2>
+  <p>No <a href="07-triads.html">capítulo 7</a> você montou tríades empilhando terças: fundamental, 3ª e 5ª. No <a href="05-major-scale.html">capítulo 5</a> viu que a escala maior tem 7 notas. O campo harmônico junta as duas coisas com uma única regra:</p>
+  <div class="tip">
+    <span class="callout-title">A regra</span>
+    <p>Comece em cada nota da escala e pegue <strong>uma nota sim, uma não</strong> (empilhar terças), usando <strong>somente notas da escala</strong>. Nada de sustenido ou bemol que a escala não tenha.</p>
+  </div>
+  <p>Como as distâncias da escala não são todas iguais (lembre do T T S T T T S), algumas terças saem maiores e outras menores. É isso que faz uns acordes saírem maiores e outros menores, sem você escolher nada.</p>
+
+  <h2>Passo a passo em Dó maior</h2>
+  <p>A escala de Dó: <strong>C D E F G A B</strong>. Escreva duas vezes seguidas para não se perder no fim: C D E F G A B C D E F G A B.</p>
+  <p><play-notes notes="C3 D3 E3 F3 G3 A3 B3 C4">ouvir a escala de Dó</play-notes></p>
+  <p>Agora, para cada grau, pule uma nota de cada vez e meça as terças:</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Grau</th><th>Notas (1–3–5)</th><th>1→3</th><th>3→5</th><th>1→5</th><th>Resultado</th></tr>
+      <tr><td class="c">I</td><td>C – E – G</td><td class="c">3M</td><td class="c">3m</td><td class="c">5J</td><td><strong>C</strong> (maior)</td></tr>
+      <tr><td class="c">ii</td><td>D – F – A</td><td class="c">3m</td><td class="c">3M</td><td class="c">5J</td><td><strong>Dm</strong> (menor)</td></tr>
+      <tr><td class="c">iii</td><td>E – G – B</td><td class="c">3m</td><td class="c">3M</td><td class="c">5J</td><td><strong>Em</strong> (menor)</td></tr>
+      <tr><td class="c">IV</td><td>F – A – C</td><td class="c">3M</td><td class="c">3m</td><td class="c">5J</td><td><strong>F</strong> (maior)</td></tr>
+      <tr><td class="c">V</td><td>G – B – D</td><td class="c">3M</td><td class="c">3m</td><td class="c">5J</td><td><strong>G</strong> (maior)</td></tr>
+      <tr><td class="c">vi</td><td>A – C – E</td><td class="c">3m</td><td class="c">3M</td><td class="c">5J</td><td><strong>Am</strong> (menor)</td></tr>
+      <tr><td class="c">vii°</td><td>B – D – F</td><td class="c">3m</td><td class="c">3m</td><td class="c">5dim</td><td><strong>Bº</strong> (diminuto)</td></tr>
+    </table>
+  </div>
+  <p>Repare no último: de B para F são só 6 semitons (B–C é meio tom), por isso a 5ª fica <strong>diminuta</strong>. É o único acorde do campo que não tem 5ª justa.</p>
+  <p>Ouça os sete, um depois do outro:
+    <play-notes notes="C3 E3 G3 C4 E4" mode="strum">C</play-notes>
+    <play-notes notes="D3 A3 D4 F4" mode="strum">Dm</play-notes>
+    <play-notes notes="E2 B2 E3 G3 B3 E4" mode="strum">Em</play-notes>
+    <play-notes notes="F2 C3 F3 A3 C4 F4" mode="strum">F</play-notes>
+    <play-notes notes="G2 B2 D3 G3 B3 G4" mode="strum">G</play-notes>
+    <play-notes notes="A2 E3 A3 C4 E4" mode="strum">Am</play-notes>
+    <play-notes notes="B2 F3 B3 D4" mode="strum">Bº</play-notes>
+  </p>
+
+  <h2>O padrão que se repete em todo tom</h2>
+  <p>Como a escala maior tem sempre a mesma fórmula, o resultado é sempre o mesmo, em qualquer tonalidade:</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Grau</th><td class="c">I</td><td class="c">ii</td><td class="c">iii</td><td class="c">IV</td><td class="c">V</td><td class="c">vi</td><td class="c">vii°</td></tr>
+      <tr><th>Tipo</th><td class="c">maior</td><td class="c">menor</td><td class="c">menor</td><td class="c">maior</td><td class="c">maior</td><td class="c">menor</td><td class="c">diminuto</td></tr>
+      <tr><th>Em Dó</th><td class="c"><strong>C</strong></td><td class="c">Dm</td><td class="c">Em</td><td class="c">F</td><td class="c">G</td><td class="c">Am</td><td class="c">Bº</td></tr>
+    </table>
+  </div>
+  <div class="key">
+    <span class="callout-title">Guarde isto</span>
+    <p><strong>Maior, menor, menor, maior, maior, menor, diminuto.</strong> Esse padrão vale para todas as 12 tonalidades maiores. Sabendo a escala e o padrão, você escreve o campo harmônico de qualquer tom.</p>
+  </div>
+
+  <h3>Algarismos romanos</h3>
+  <p>Para falar dos acordes sem depender do tom, usamos os graus em algarismos romanos:</p>
+  <ul>
+    <li><strong>Maiúsculo</strong> = acorde maior: I, IV, V.</li>
+    <li><strong>Minúsculo</strong> = acorde menor: ii, iii, vi.</li>
+    <li><strong>Minúsculo com °</strong> = diminuto: vii°.</li>
+  </ul>
+  <p>Assim, “I–IV–V” quer dizer C–F–G em Dó, G–C–D em Sol, D–G–A em Ré… É a mesma progressão em tons diferentes. Muitos livros brasileiros escrevem tudo em maiúsculas (I II III IV…) e deixam o tipo para a cifra; o significado é o mesmo.</p>
+
+  <h2>Os acordes são pedaços da escala</h2>
+  <p>Todo acorde do campo é só um recorte da escala. Compare a escala de Dó nas primeiras casas com as notas do Dm (D, F, A): elas são exatamente os graus 2, 4 e 6 da escala, nada de fora.</p>
+  <fret-board root="C" formula="1 2 3 4 5 6 7" from="0" to="5" caption="Escala de Dó maior (graus em relação a C)"></fret-board>
+  <fret-board root="C" formula="2 4 6" from="0" to="5" caption="Só as notas de Dm dentro da escala de Dó: graus 2, 4 e 6"></fret-board>
+  <fret-board chord="Dm" from="0" to="5" caption="As mesmas notas vistas como acorde: D é a fundamental (1), F a 3ª menor, A a 5ª"></fret-board>
+  <p>O mesmo vale para qualquer grau: o G é 5–7–2 da escala de Dó, o Am é 6–1–3, e assim por diante. Por isso uma melodia na escala de Dó “combina” com todos esses acordes.</p>
+
+  <h2>Tétrades do campo harmônico</h2>
+  <p>Continuando a empilhar terças, chega-se à 7ª, como no <a href="10-seventh-chords.html">capítulo 10</a>. A regra é a mesma: só notas da escala.</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Grau</th><th>Notas (1–3–5–7)</th><th>Tríade + 7ª</th><th>Tétrade</th></tr>
+      <tr><td class="c">I7M</td><td>C – E – G – B</td><td>maior + 7M</td><td><strong>C7M</strong></td></tr>
+      <tr><td class="c">iim7</td><td>D – F – A – C</td><td>menor + 7m</td><td><strong>Dm7</strong></td></tr>
+      <tr><td class="c">iiim7</td><td>E – G – B – D</td><td>menor + 7m</td><td><strong>Em7</strong></td></tr>
+      <tr><td class="c">IV7M</td><td>F – A – C – E</td><td>maior + 7M</td><td><strong>F7M</strong></td></tr>
+      <tr><td class="c">V7</td><td>G – B – D – F</td><td>maior + 7m</td><td><strong>G7</strong></td></tr>
+      <tr><td class="c">vim7</td><td>A – C – E – G</td><td>menor + 7m</td><td><strong>Am7</strong></td></tr>
+      <tr><td class="c">viim7(♭5)</td><td>B – D – F – A</td><td>diminuta + 7m</td><td><strong>Bm7(♭5)</strong></td></tr>
+    </table>
+  </div>
+  <p>Repare que o <strong>V é o único acorde com sétima “de dominante”</strong> (maior com 7ª menor): G7. Isso vai ser importante no próximo capítulo. E o vii vira meio-diminuto, Bm7(♭5) (em cifra internacional, Bø), e não Bº7.</p>
+  <p>O padrão das tétrades: <strong>7M, m7, m7, 7M, 7, m7, m7(♭5)</strong>.</p>
+
+  <h2>O campo de Dó no violão</h2>
+  <p>Tríades, em formas práticas (o F aparece com pestana; o Bº numa forma de quatro cordas a partir da 5ª corda):</p>
+  <div class="diagram-row">
+    <chord-diagram name="C" frets="x32010" fingers="x32010" caption="I"></chord-diagram>
+    <chord-diagram name="Dm" frets="xx0231" fingers="xx0231" caption="ii"></chord-diagram>
+    <chord-diagram name="Em" frets="022000" fingers="023000" caption="iii"></chord-diagram>
+    <chord-diagram name="F" frets="133211" fingers="134211" caption="IV"></chord-diagram>
+    <chord-diagram name="G" frets="320003" fingers="210003" caption="V"></chord-diagram>
+    <chord-diagram name="Am" frets="x02210" fingers="x02310" caption="vi"></chord-diagram>
+    <chord-diagram name="Bº" frets="x2343x" fingers="x1243x" caption="vii°"></chord-diagram>
+  </div>
+  <p>Tétrades:</p>
+  <div class="diagram-row">
+    <chord-diagram name="C7M" frets="x32000" fingers="x32000" caption="I7M"></chord-diagram>
+    <chord-diagram name="Dm7" frets="xx0211" fingers="xx0211" caption="iim7"></chord-diagram>
+    <chord-diagram name="Em7" frets="022030" fingers="023040" caption="iiim7"></chord-diagram>
+    <chord-diagram name="F7M" frets="xx3210" fingers="xx3210" caption="IV7M"></chord-diagram>
+    <chord-diagram name="G7" frets="320001" fingers="320001" caption="V7"></chord-diagram>
+    <chord-diagram name="Am7" frets="x02010" fingers="x02010" caption="vim7"></chord-diagram>
+    <chord-diagram name="Bm7(♭5)" frets="x2323x" fingers="x1324x" caption="viim7(♭5)"></chord-diagram>
+  </div>
+
+  <h2>Mais dois tons: Sol e Ré</h2>
+  <p>O processo é idêntico. Primeiro a escala, depois o padrão.</p>
+  <h3>Sol maior</h3>
+  <p>Escala de Sol: <strong>G A B C D E F♯</strong> (um sustenido, no 7º grau). Empilhando terças: G–B–D, A–C–E, B–D–F♯, C–E–G, D–F♯–A, E–G–B, F♯–A–C.</p>
+  <h3>Ré maior</h3>
+  <p>Escala de Ré: <strong>D E F♯ G A B C♯</strong> (dois sustenidos). Empilhando: D–F♯–A, E–G–B, F♯–A–C♯, G–B–D, A–C♯–E, B–D–F♯, C♯–E–G.</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Grau</th><td class="c">I</td><td class="c">ii</td><td class="c">iii</td><td class="c">IV</td><td class="c">V</td><td class="c">vi</td><td class="c">vii°</td></tr>
+      <tr><th>Dó</th><td class="c"><strong>C</strong></td><td class="c">Dm</td><td class="c">Em</td><td class="c">F</td><td class="c">G</td><td class="c">Am</td><td class="c">Bº</td></tr>
+      <tr><th>Sol</th><td class="c"><strong>G</strong></td><td class="c">Am</td><td class="c">Bm</td><td class="c">C</td><td class="c">D</td><td class="c">Em</td><td class="c">F♯º</td></tr>
+      <tr><th>Ré</th><td class="c"><strong>D</strong></td><td class="c">Em</td><td class="c">F♯m</td><td class="c">G</td><td class="c">A</td><td class="c">Bm</td><td class="c">C♯º</td></tr>
+      <tr><th>Sol (tétrades)</th><td class="c">G7M</td><td class="c">Am7</td><td class="c">Bm7</td><td class="c">C7M</td><td class="c">D7</td><td class="c">Em7</td><td class="c">F♯m7(♭5)</td></tr>
+      <tr><th>Ré (tétrades)</th><td class="c">D7M</td><td class="c">Em7</td><td class="c">F♯m7</td><td class="c">G7M</td><td class="c">A7</td><td class="c">Bm7</td><td class="c">C♯m7(♭5)</td></tr>
+    </table>
+  </div>
+  <p>Note que os sustenidos da escala aparecem nos acordes: em Sol, o F♯ faz o Bm ser menor (B–D–F♯) e o D ser maior (D–F♯–A). Os três campos dividem vários acordes (Em e G estão nos três), e é por isso que é tão fácil passar de um tom vizinho para outro.</p>
+
+  <h3>O campo de Sol no violão</h3>
+  <p>O F♯º usa a mesma forma do Bº, só que na casa 9.</p>
+  <div class="diagram-row">
+    <chord-diagram name="G" frets="320003" fingers="210003" caption="I"></chord-diagram>
+    <chord-diagram name="Am" frets="x02210" fingers="x02310" caption="ii"></chord-diagram>
+    <chord-diagram name="Bm" frets="x24432" fingers="x13421" caption="iii"></chord-diagram>
+    <chord-diagram name="C" frets="x32010" fingers="x32010" caption="IV"></chord-diagram>
+    <chord-diagram name="D" frets="xx0232" fingers="xx0132" caption="V"></chord-diagram>
+    <chord-diagram name="Em" frets="022000" fingers="023000" caption="vi"></chord-diagram>
+    <chord-diagram name="F♯º" frets="x 9 10 11 10 x" fingers="x 1 2 4 3 x" caption="vii°"></chord-diagram>
+  </div>
+  <div class="diagram-row">
+    <chord-diagram name="G7M" frets="3x443x" fingers="2x341x" caption="I7M"></chord-diagram>
+    <chord-diagram name="Am7" frets="x02010" fingers="x02010" caption="iim7"></chord-diagram>
+    <chord-diagram name="Bm7" frets="x24232" fingers="x13121" caption="iiim7"></chord-diagram>
+    <chord-diagram name="C7M" frets="x32000" fingers="x32000" caption="IV7M"></chord-diagram>
+    <chord-diagram name="D7" frets="xx0212" fingers="xx0213" caption="V7"></chord-diagram>
+    <chord-diagram name="Em7" frets="022030" fingers="023040" caption="vim7"></chord-diagram>
+    <chord-diagram name="F♯m7(♭5)" frets="2x221x" fingers="2x341x" caption="viim7(♭5)"></chord-diagram>
+  </div>
+
+  <div class="warn">
+    <span class="callout-title">Cuidado</span>
+    <p>O campo harmônico mostra os acordes que <em>nascem</em> do tom, não os únicos permitidos. Muitas músicas usam acordes “de fora” (por exemplo, um E7 em Dó). Eles existem por outros motivos, que ficam para depois. Mas o núcleo de quase toda música pop está aqui.</p>
+  </div>
+  <p>A tabela completa, com os 12 tons, está no <a href="appendix-b-harmonic-fields.html">Apêndice B</a>.</p>
+
+  <section class="exercises">
+    <h2>Exercícios</h2>
+    <ol>
+      <li>Escreva o campo harmônico (tríades) de Lá maior. A escala é A B C♯ D E F♯ G♯.
+        <details class="answer"><summary>Resposta</summary><p>A – Bm – C♯m – D – E – F♯m – G♯º.</p></details></li>
+      <li>Por que o acorde do 2º grau de Dó é Dm e não D? Responda pelas notas.
+        <details class="answer"><summary>Resposta</summary><p>Empilhando terças a partir de D só com notas de Dó, sai D–F–A. A 3ª maior de D seria F♯, que não está na escala de Dó. Com F, a 3ª é menor (3 semitons), então o acorde é Dm.</p></details></li>
+      <li>Qual o acorde do V grau, em tétrade, nos tons de Sol, Ré e Fá?
+        <details class="answer"><summary>Resposta</summary><p>Sol: D7 · Ré: A7 · Fá: C7. Sempre um acorde maior com 7ª menor.</p></details></li>
+      <li>Em que tom(ns) maiores aparecem juntos os acordes C, G e Am?
+        <details class="answer"><summary>Resposta</summary><p>Em Dó (I, V, vi) e em Sol (IV, I, ii). Em Fá não, porque lá o B vira B♭ e o G vira Gm.</p></details></li>
+      <li>No violão: toque o campo de Sol inteiro, de G até F♯º e de volta ao G, cantando (ou dizendo) o grau de cada acorde.
+        <details class="answer"><summary>Resposta</summary><p>G (I) – Am (ii) – Bm (iii) – C (IV) – D (V) – Em (vi) – F♯º (vii°) – G (I). Repare como o F♯º “pede” para voltar ao G: é a sensação de tensão que o próximo capítulo explica.</p></details></li>
+    </ol>
+  </section>
+</main>
+</body>
+</html>

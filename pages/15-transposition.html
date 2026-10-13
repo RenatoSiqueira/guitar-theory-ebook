@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>15. Transposição — Violão: do intervalo ao acorde</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <script src="../assets/theory.js" defer></script>
+  <script src="../assets/ebook.js" defer></script>
+</head>
+<body data-root="../" data-page="15-transposition">
+<main>
+  <header class="chapter-head">
+    <p class="kicker">Parte 5 — Harmonia</p>
+    <h1>Transposição</h1>
+    <p class="lede">A música está em Dó, mas ficou alta (ou baixa) para cantar. Transpor é mudar a música inteira de tom sem mudar o seu jeito: os mesmos graus, as mesmas distâncias, só que a partir de outra nota.</p>
+  </header>
+
+  <h2>A progressão de exemplo</h2>
+  <p>Vamos usar esta sequência em Dó, com um baixo invertido no meio (veja o <a href="11-inversions.html">capítulo 11</a>):</p>
+  <div class="diagram-row">
+    <chord-diagram name="C" frets="x32010" fingers="x32010" caption="I"></chord-diagram>
+    <chord-diagram name="C/E" frets="032010" fingers="032010" caption="I/3"></chord-diagram>
+    <chord-diagram name="F" frets="133211" fingers="134211" caption="IV"></chord-diagram>
+    <chord-diagram name="G7" frets="320001" fingers="320001" caption="V7"></chord-diagram>
+    <chord-diagram name="Am" frets="x02210" fingers="x02310" caption="vi"></chord-diagram>
+  </div>
+  <p>Há dois jeitos de levar isso para outro tom. Os dois dão o mesmo resultado.</p>
+
+  <h2>Método 1: pelos graus</h2>
+  <p>Este é o método que usa o que você aprendeu no <a href="13-harmonic-field.html">campo harmônico</a>:</p>
+  <ol>
+    <li>Escreva a progressão em graus: <strong>I – I/3 – IV – V7 – vi</strong>.</li>
+    <li>Escreva o campo harmônico do tom novo.</li>
+    <li>Troque cada grau pelo acorde correspondente.</li>
+  </ol>
+  <p>Em Ré maior, o campo é D – Em – F♯m – G – A – Bm – C♯º. Então:</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Grau</th><td class="c">I</td><td class="c">I/3</td><td class="c">IV</td><td class="c">V7</td><td class="c">vi</td></tr>
+      <tr><th>Dó</th><td class="c">C</td><td class="c">C/E</td><td class="c">F</td><td class="c">G7</td><td class="c">Am</td></tr>
+      <tr><th>Ré</th><td class="c"><strong>D</strong></td><td class="c"><strong>D/F♯</strong></td><td class="c"><strong>G</strong></td><td class="c"><strong>A7</strong></td><td class="c"><strong>Bm</strong></td></tr>
+    </table>
+  </div>
+  <p>O baixo invertido também é um grau: em C/E, o baixo é a 3ª do acorde. Em Ré, a 3ª de D é F♯, logo D/F♯.</p>
+  <p>Vantagem: você entende a música, não só os nomes. Desvantagem: exige saber o campo harmônico do tom de destino (o <a href="appendix-b-harmonic-fields.html">Apêndice B</a> tem todos).</p>
+
+  <h2>Método 2: contando semitons</h2>
+  <p>Este método funciona até para acordes que não são do campo harmônico:</p>
+  <ol>
+    <li>Conte quantos semitons separam o tom original do novo (de C para D: 2).</li>
+    <li>Suba <strong>todas as notas fundamentais</strong> esse mesmo número de semitons.</li>
+    <li><strong>Mantenha o resto da cifra igual</strong>: m, 7, 7M, sus4, (9)… E suba também o baixo depois da barra.</li>
+  </ol>
+  <p>Use a roda cromática abaixo. Ela é circular: depois do B vem o C de novo.</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Semitons a partir de C</th><td class="c">0</td><td class="c">1</td><td class="c">2</td><td class="c">3</td><td class="c">4</td><td class="c">5</td><td class="c">6</td><td class="c">7</td><td class="c">8</td><td class="c">9</td><td class="c">10</td><td class="c">11</td></tr>
+      <tr><th>Nota</th><td class="c"><strong>C</strong></td><td class="c">C♯/D♭</td><td class="c"><strong>D</strong></td><td class="c">D♯/E♭</td><td class="c"><strong>E</strong></td><td class="c"><strong>F</strong></td><td class="c">F♯/G♭</td><td class="c"><strong>G</strong></td><td class="c">G♯/A♭</td><td class="c"><strong>A</strong></td><td class="c">A♯/B♭</td><td class="c"><strong>B</strong></td></tr>
+    </table>
+  </div>
+  <p>No violão, essa roda é simplesmente uma corda: cada casa é um semitom. Contar semitons é contar casas.</p>
+  <fret-board positions="5:3 5:5 5:8 5:10" from="0" to="12" caption="Na 5ª corda: C (casa 3) → D (casa 5) e F (casa 8) → G (casa 10). Toda fundamental anda as mesmas 2 casas"></fret-board>
+
+  <h3>De Dó para Ré (+2 semitons)</h3>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Original</th><td class="c">C</td><td class="c">C/E</td><td class="c">F</td><td class="c">G7</td><td class="c">Am</td></tr>
+      <tr><th>Fundamental +2</th><td class="c">C→D</td><td class="c">C→D, E→F♯</td><td class="c">F→G</td><td class="c">G→A</td><td class="c">A→B</td></tr>
+      <tr><th>Resultado</th><td class="c"><strong>D</strong></td><td class="c"><strong>D/F♯</strong></td><td class="c"><strong>G</strong></td><td class="c"><strong>A7</strong></td><td class="c"><strong>Bm</strong></td></tr>
+    </table>
+  </div>
+  <div class="diagram-row">
+    <chord-diagram name="D" frets="xx0232" fingers="xx0132" caption="I"></chord-diagram>
+    <chord-diagram name="D/F♯" frets="2x0232" fingers="1x0243" caption="I/3"></chord-diagram>
+    <chord-diagram name="G" frets="320003" fingers="210003" caption="IV"></chord-diagram>
+    <chord-diagram name="A7" frets="x02020" fingers="x02030" caption="V7"></chord-diagram>
+    <chord-diagram name="Bm" frets="x24432" fingers="x13421" caption="vi"></chord-diagram>
+  </div>
+  <p>Mesmo resultado do método 1, como tinha que ser.</p>
+
+  <h3>De Dó para Lá (+9 ou −3 semitons)</h3>
+  <p>Subir 9 ou descer 3 dá na mesma nota (9 + 3 = 12, uma oitava). Use a conta mais curta: <strong>descer 3</strong>. C→A, E→C♯, F→D, G→E, A→F♯.</p>
+  <p>Resultado: <strong>A – A/C♯ – D – E7 – F♯m</strong>.</p>
+  <div class="diagram-row">
+    <chord-diagram name="A" frets="x02220" fingers="x01230" caption="I"></chord-diagram>
+    <chord-diagram name="A/C♯" frets="x4222x" fingers="x4111x" caption="I/3"></chord-diagram>
+    <chord-diagram name="D" frets="xx0232" fingers="xx0132" caption="IV"></chord-diagram>
+    <chord-diagram name="E7" frets="020100" fingers="020100" caption="V7"></chord-diagram>
+    <chord-diagram name="F♯m" frets="244222" fingers="134111" caption="vi"></chord-diagram>
+  </div>
+
+  <div class="warn">
+    <span class="callout-title">Cuidado com a grafia</span>
+    <p>Na roda, C♯ e D♭ estão na mesma casa. Ao transpor, prefira o nome que combina com o tom de destino: em Lá maior a escala tem C♯ (não D♭); em Fá maior tem B♭ (não A♯). Regra prática: tons com sustenido (G, D, A, E, B) usam sustenidos; tons com bemol (F, B♭, E♭, A♭, D♭) usam bemóis.</p>
+  </div>
+
+  <div class="key">
+    <span class="callout-title">Guarde isto</span>
+    <p>Transpor = mover <strong>todas</strong> as fundamentais (e os baixos depois da barra) pelo <strong>mesmo intervalo</strong>, sem tocar no tipo do acorde. Um Am7 continua m7, um G/B continua com o baixo na 3ª. Pelos graus ou por semitons, o resultado é o mesmo.</p>
+  </div>
+
+  <h2>Capotraste: o atalho do violonista</h2>
+  <p>O capotraste (capo) prende todas as cordas numa casa. Ele funciona como uma pestana fixa: <strong>cada casa de capo sobe tudo 1 semitom</strong>. Você toca as mesmas formas, mas o som sai mais agudo.</p>
+  <p>Isso permite tocar numa tonalidade difícil usando as formas fáceis de outra. A conta é a mesma do método 2: <strong>forma + casas do capo = tom real</strong>.</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Formas de…</th><th>sem capo</th><th>capo 1</th><th>capo 2</th><th>capo 3</th><th>capo 4</th><th>capo 5</th><th>capo 7</th></tr>
+      <tr><th>C</th><td class="c">C</td><td class="c">D♭</td><td class="c">D</td><td class="c">E♭</td><td class="c">E</td><td class="c">F</td><td class="c">G</td></tr>
+      <tr><th>A</th><td class="c">A</td><td class="c">B♭</td><td class="c">B</td><td class="c">C</td><td class="c">C♯</td><td class="c">D</td><td class="c">E</td></tr>
+      <tr><th>G</th><td class="c">G</td><td class="c">A♭</td><td class="c">A</td><td class="c">B♭</td><td class="c">B</td><td class="c">C</td><td class="c">D</td></tr>
+      <tr><th>E</th><td class="c">E</td><td class="c">F</td><td class="c">F♯</td><td class="c">G</td><td class="c">A♭</td><td class="c">A</td><td class="c">B</td></tr>
+      <tr><th>D</th><td class="c">D</td><td class="c">E♭</td><td class="c">E</td><td class="c">F</td><td class="c">F♯</td><td class="c">G</td><td class="c">A</td></tr>
+    </table>
+  </div>
+  <p>Leitura: “formas de G com capo na 2 soam em Lá”. No sentido inverso, para achar a casa do capo, conte os semitons da forma até o tom desejado (de D até E: 2 → capo na casa 2).</p>
+
+  <h3>Exemplo: a progressão em Mi, com capo</h3>
+  <p>Em Mi, sem capo, a progressão seria <strong>E – E/G♯ – A – B7 – C♯m</strong>: o C♯m pede pestana e o E/G♯ é desconfortável. Duas saídas:</p>
+  <ul>
+    <li><strong>Capo na casa 2 + formas de Ré</strong>: toque D – D/F♯ – G – A7 – Bm (as formas mostradas acima). Soa E – E/G♯ – A – B7 – C♯m.</li>
+    <li><strong>Capo na casa 4 + formas de Dó</strong>: toque C – C/E – F – G7 – Am. Soa igual, só que com timbre mais agudo e brilhante.</li>
+  </ul>
+  <p>Compare o som do primeiro acorde: o E real e a forma de D com capo na 2 são o mesmo acorde.
+    <play-notes notes="E2 B2 E3 G#3 B3 E4" mode="strum">E (forma de E, sem capo)</play-notes>
+    <play-notes notes="E3 B3 E4 G#4" mode="strum">forma de D com capo 2</play-notes>
+  </p>
+  <div class="tip">
+    <span class="callout-title">Cifra com capo</span>
+    <p>Em sites de cifra, “capo na 2ª casa” quer dizer que os acordes escritos são as <em>formas</em>, não o som real. Se você for tocar junto com alguém sem capo, transponha: suba cada acorde 2 semitons.</p>
+  </div>
+
+  <section class="exercises">
+    <h2>Exercícios</h2>
+    <ol>
+      <li>Transponha de Dó para Sol: C – Am – Dm7 – G7.
+        <details class="answer"><summary>Resposta</summary><p>+7 semitons (ou −5): G – Em – Am7 – D7. Pelos graus: I – vi – iim7 – V7 em Sol.</p></details></li>
+      <li>Transponha de Sol para Mi (desça 3 semitons): G – D/F♯ – Em – C – D.
+        <details class="answer"><summary>Resposta</summary><p>E – B/D♯ – C♯m – A – B. O baixo F♯ também desce 3: F♯→D♯.</p></details></li>
+      <li>A música está em Fá (F – B♭ – C7 – Dm). Que forma e casa de capo deixam tudo em acordes abertos?
+        <details class="answer"><summary>Resposta</summary><p>Formas de Ré com capo na 3 (D – G – A7 – Bm soam F – B♭ – C7 – Dm). Ou formas de Dó com capo na 5 (C – F – G7 – Am). Ou formas de Mi com capo na 1 (E – A – B7 – C♯m).</p></details></li>
+      <li>Capo na casa 3, você toca G – C – D. Em que tom a música está soando e quais são os acordes reais?
+        <details class="answer"><summary>Resposta</summary><p>Si bemol maior: B♭ – E♭ – F (cada acorde sobe 3 semitons).</p></details></li>
+      <li>No violão: toque a progressão C – C/E – F – G7 – Am, depois coloque o capo na casa 2 e toque com formas de A (A – A/C♯ – D – E7 – F♯m). Em que tom está soando?
+        <details class="answer"><summary>Resposta</summary><p>Si maior: B – B/D♯ – E – F♯7 – G♯m. Forma de A + 2 semitons = B.</p></details></li>
+    </ol>
+  </section>
+</main>
+</body>
+</html>

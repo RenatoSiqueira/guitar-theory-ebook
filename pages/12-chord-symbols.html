@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>12. Lendo cifras — Violão: do intervalo ao acorde</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <script src="../assets/theory.js" defer></script>
+  <script src="../assets/ebook.js" defer></script>
+</head>
+<body data-root="../" data-page="12-chord-symbols">
+<main>
+  <header class="chapter-head">
+    <p class="kicker">Parte 4 — Formação de acordes</p>
+    <h1>Lendo cifras</h1>
+    <p class="lede">Uma cifra como A7(♭9) ou C6(9)/E parece código secreto, mas é só uma lista de intervalos escrita de forma compacta. Este capítulo mostra como ler qualquer cifra, peça por peça, e montar o acorde sem precisar decorar o desenho.</p>
+  </header>
+
+  <h2>As peças de uma cifra</h2>
+  <p>Toda cifra é lida da esquerda para a direita, sempre na mesma ordem:</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Peça</th><th>Exemplos</th><th>O que diz</th></tr>
+      <tr><td>1. Fundamental</td><td>C, F♯, B♭</td><td>a nota que dá nome ao acorde</td></tr>
+      <tr><td>2. Tríade</td><td>(nada), m, º, +, sus2, sus4</td><td>maior, menor, diminuta, aumentada ou suspensa (<a href="07-triads.html">capítulo 7</a>)</td></tr>
+      <tr><td>3. Sétima</td><td>7, 7M</td><td>7ª menor ou maior (<a href="10-seventh-chords.html">capítulo 10</a>)</td></tr>
+      <tr><td>4. Extensões e alterações</td><td>(9), (♭9), (11), (13), 6</td><td>notas acrescentadas, quase sempre entre parênteses</td></tr>
+      <tr><td>5. Baixo</td><td>/E, /G</td><td>a nota mais grave (<a href="11-inversions.html">capítulo 11</a>)</td></tr>
+    </table>
+  </div>
+  <p>Exemplo: <strong>Am7(9)/G</strong> = fundamental A · tríade menor · 7ª menor · com 9ª · baixo em G. Fórmula: 1 ♭3 5 ♭7 9, notas A C E G B, com G embaixo.</p>
+
+  <h2>9, 11 e 13: a 2ª, a 4ª e a 6ª uma oitava acima</h2>
+  <p>Se você continuar empilhando 3ªs depois da 7ª (como no capítulo 10), as próximas notas passam da oitava. Contando os graus a partir de C:</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Nota</th><td class="c">C</td><td class="c">E</td><td class="c">G</td><td class="c">B</td><td class="c"><strong>D</strong></td><td class="c"><strong>F</strong></td><td class="c"><strong>A</strong></td></tr>
+      <tr><th>Grau</th><td class="c">1</td><td class="c">3</td><td class="c">5</td><td class="c">7</td><td class="c"><strong>9</strong></td><td class="c"><strong>11</strong></td><td class="c"><strong>13</strong></td></tr>
+      <tr><th>= na 1ª oitava</th><td class="c"></td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c">2</td><td class="c">4</td><td class="c">6</td></tr>
+    </table>
+  </div>
+  <p>A oitava tem 7 notas, então <strong>9 = 2 + 7</strong>, <strong>11 = 4 + 7</strong>, <strong>13 = 6 + 7</strong>. É a mesma nota; o número maior só indica que ela é uma <em>extensão</em>, uma nota a mais em cima de um acorde completo. No violão, a 9ª pode estar em qualquer oitava: ninguém confere se ela está mesmo acima da 7ª.</p>
+  <fret-board root="C" formula="1 3 5 ♭7 9" positions="5:3 4:2 3:3 2:3" from="0" to="5" caption="C7(9) (x 3 2 3 3 x): o D da 2ª corda é a 9ª, a 2ª (D) uma oitava acima"></fret-board>
+
+  <h2>Acordes suspensos: sus2 e sus4</h2>
+  <p><strong>sus</strong> vem de “suspenso”: a 3ª <strong>sai</strong> e no lugar dela entra a 2ª (<strong>sus2</strong>) ou a 4ª (<strong>sus4</strong>). Sem a 3ª o acorde não é nem maior nem menor; soa “no ar”, pedindo para voltar à 3ª. Na cifra brasileira, sus4 também aparece só como <strong>4</strong> (D4 = Dsus4).</p>
+  <div class="diagram-row">
+    <chord-diagram name="Dsus2" frets="xx0230" fingers="xx0130"></chord-diagram>
+    <chord-diagram name="D" frets="xx0232" fingers="xx0132"></chord-diagram>
+    <chord-diagram name="Dsus4" frets="xx0233" fingers="xx0134"></chord-diagram>
+  </div>
+  <p><play-notes notes="D3 A3 D4 G4" mode="strum">Dsus4</play-notes> <play-notes notes="D3 A3 D4 F#4" mode="strum">→ D</play-notes> <play-notes notes="D3 A3 D4 E4" mode="strum">Dsus2</play-notes> <play-notes notes="D3 A3 D4 F#4" mode="strum">→ D</play-notes></p>
+  <div class="diagram-row">
+    <chord-diagram name="Asus2" frets="x02200" fingers="x01200"></chord-diagram>
+    <chord-diagram name="Asus4" frets="x02230" fingers="x01230"></chord-diagram>
+    <chord-diagram name="Esus4" frets="022200" fingers="023400"></chord-diagram>
+    <chord-diagram name="Csus4" frets="x33011" fingers="x34011"></chord-diagram>
+    <chord-diagram name="A7sus4" frets="x02030" fingers="x02030" caption="7sus4 = sus4 com ♭7; também escrito A7(4)"></chord-diagram>
+  </div>
+
+  <h2>6, add9 e 9: acrescentando uma nota</h2>
+  <p>Diferente do sus, essas cifras <strong>mantêm a 3ª</strong> e só acrescentam uma nota:</p>
+  <ul>
+    <li><strong>6</strong> (C6) e <strong>m6</strong> (Cm6): tríade + 6ª maior. Som doce e antigo, de samba e de jazz dos anos 30.</li>
+    <li><strong>add9</strong> ou <strong>(9)</strong> (Cadd9, C(9)): tríade + 9ª, <strong>sem 7ª</strong>. Muito usado no pop e no violão de acompanhamento.</li>
+    <li><strong>7(9)</strong>, <strong>7M(9)</strong>, <strong>m7(9)</strong>: tétrade + 9ª. Aqui a 7ª <strong>está</strong> lá.</li>
+    <li><strong>6(9)</strong>: tríade + 6ª + 9ª, sem 7ª. O acorde final típico da bossa nova.</li>
+  </ul>
+  <div class="warn">
+    <span class="callout-title">C9 é com ou sem 7ª?</span>
+    <p>Na cifra internacional, <strong>C9</strong> sempre inclui a ♭7 (= C7(9)), e o acorde sem 7ª é <strong>Cadd9</strong>. Na cifra brasileira, o que vem entre parênteses é acrescentado ao que está fora: <strong>C(9)</strong> = tríade + 9 (sem 7ª), <strong>C7(9)</strong> = com 7ª. Na dúvida, olhe se há um 7 escrito fora dos parênteses.</p>
+  </div>
+  <div class="diagram-row">
+    <chord-diagram name="C6" frets="x32210" fingers="x32410"></chord-diagram>
+    <chord-diagram name="Am6" frets="x02212" fingers="x02314"></chord-diagram>
+    <chord-diagram name="Cadd9" frets="x32030" fingers="x21030" caption="Também escrito C(9)"></chord-diagram>
+    <chord-diagram name="C6(9)" frets="x32233" fingers="x21134"></chord-diagram>
+  </div>
+  <div class="diagram-row">
+    <chord-diagram name="C7(9)" frets="x 3 2 3 3 x" fingers="x2133x"></chord-diagram>
+    <chord-diagram name="C7M(9)" frets="x 3 2 4 3 x" fingers="x2143x"></chord-diagram>
+    <chord-diagram name="E7(9)" frets="020132" fingers="020143"></chord-diagram>
+    <chord-diagram name="Am7(9)" frets="x05557" fingers="x01113"></chord-diagram>
+  </div>
+  <p><play-notes notes="C3 E3 G3 D4 E4" mode="strum">Cadd9</play-notes> <play-notes notes="C3 E3 A#3 D4" mode="strum">C7(9)</play-notes> <play-notes notes="C3 E3 B3 D4" mode="strum">C7M(9)</play-notes> <play-notes notes="C3 E3 A3 D4 G4" mode="strum">C6(9)</play-notes></p>
+  <p>Repare que C7(9) e C7M(9) não têm 5ª. É normal: com 5 ou 6 notas na fórmula e só 6 cordas (e 4 dedos), a <strong>5ª justa é a primeira nota a sair</strong>, porque não muda a qualidade do acorde. A 3ª e a 7ª, que definem o tipo, ficam sempre.</p>
+
+  <h2>Alterações: ♭9, ♯9, 13</h2>
+  <p>Nos acordes dominantes (7) as extensões costumam ser alteradas para criar mais tensão antes de resolver. O símbolo ♭ ou ♯ desce ou sobe aquela nota um semitom:</p>
+  <div class="diagram-row">
+    <chord-diagram name="C7(♭9)" frets="x 3 2 3 2 x" fingers="x2131x"></chord-diagram>
+    <chord-diagram name="E7(♯9)" frets="0 7 6 7 8 x" fingers="021340" caption="O “acorde do Hendrix”, em “Purple Haze”"></chord-diagram>
+    <chord-diagram name="G7(13)" frets="3 x 3 4 5 x" fingers="1x234x" caption="O E na 2ª corda é a 13ª"></chord-diagram>
+  </div>
+  <p><play-notes notes="C3 E3 A#3 C#4" mode="strum">C7(♭9)</play-notes> <play-notes notes="E2 E3 G#3 D4 G4" mode="strum">E7(♯9)</play-notes> <play-notes notes="G2 F3 B3 E4" mode="strum">G7(13)</play-notes></p>
+
+  <h2>Power chord: o “5”</h2>
+  <p><strong>G5</strong> é só fundamental e 5ª, sem 3ª. Não é maior nem menor, por isso funciona com distorção (a 3ª fica embolada no som distorcido). É o acorde do rock.</p>
+  <div class="diagram-row">
+    <chord-diagram name="G5" frets="355xxx" fingers="134xxx"></chord-diagram>
+    <chord-diagram name="E5" frets="022xxx" fingers="012xxx"></chord-diagram>
+    <chord-diagram name="C5" frets="x355xx" fingers="x134xx" caption="Mesmo desenho, fundamental na 5ª corda"></chord-diagram>
+  </div>
+
+  <h2>Tabela de referência (tudo em C)</h2>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Cifra</th><th>Fórmula</th><th>Notas em C</th></tr>
+      <tr><td>C5</td><td>1 5</td><td>C G</td></tr>
+      <tr><td>Csus2</td><td>1 2 5</td><td>C D G</td></tr>
+      <tr><td>Csus4 (C4)</td><td>1 4 5</td><td>C F G</td></tr>
+      <tr><td>C6</td><td>1 3 5 6</td><td>C E G A</td></tr>
+      <tr><td>Cm6</td><td>1 ♭3 5 6</td><td>C E♭ G A</td></tr>
+      <tr><td>Cadd9, C(9)</td><td>1 3 5 9</td><td>C E G D</td></tr>
+      <tr><td>Cm(9)</td><td>1 ♭3 5 9</td><td>C E♭ G D</td></tr>
+      <tr><td>C6(9)</td><td>1 3 5 6 9</td><td>C E G A D</td></tr>
+      <tr><td>C7sus4, C7(4)</td><td>1 4 5 ♭7</td><td>C F G B♭</td></tr>
+      <tr><td>C7(9)</td><td>1 3 5 ♭7 9</td><td>C E G B♭ D</td></tr>
+      <tr><td>C7M(9)</td><td>1 3 5 7 9</td><td>C E G B D</td></tr>
+      <tr><td>Cm7(9)</td><td>1 ♭3 5 ♭7 9</td><td>C E♭ G B♭ D</td></tr>
+      <tr><td>Cm7(11)</td><td>1 ♭3 5 ♭7 11</td><td>C E♭ G B♭ F</td></tr>
+      <tr><td>C7(♭9)</td><td>1 3 5 ♭7 ♭9</td><td>C E G B♭ D♭</td></tr>
+      <tr><td>C7(♯9)</td><td>1 3 5 ♭7 ♯9</td><td>C E G B♭ D♯</td></tr>
+      <tr><td>C7(13)</td><td>1 3 5 ♭7 13</td><td>C E G B♭ A</td></tr>
+      <tr><td>C7(♯5)</td><td>1 3 ♯5 ♭7</td><td>C E G♯ B♭</td></tr>
+    </table>
+  </div>
+
+  <div class="key">
+    <span class="callout-title">Guarde isto</span>
+    <p>Leia na ordem: <strong>fundamental → tríade → 7ª → (extensões) → /baixo</strong>. <strong>sus</strong> troca a 3ª; <strong>6, add9, (9)</strong> acrescentam sem 7ª; <strong>7(9), 7(13)</strong> acrescentam com 7ª. 9 = 2, 11 = 4, 13 = 6 (uma oitava acima). Se faltar dedo, tire a 5ª.</p>
+  </div>
+
+  <section class="exercises">
+    <h2>Exercícios</h2>
+    <ol>
+      <li>Escreva fórmula e notas de: Gsus4, D6, F7M(9).
+        <details class="answer"><summary>Resposta</summary><p>Gsus4: 1 4 5 = G C D · D6: 1 3 5 6 = D F♯ A B · F7M(9): 1 3 5 7 9 = F A C E G.</p></details></li>
+      <li>Qual a diferença entre Cadd9 e Csus2?
+        <details class="answer"><summary>Resposta</summary><p>Cadd9 tem a 3ª (C E G D): é um C maior com a 9ª a mais. Csus2 não tem 3ª (C D G): a 2ª ocupa o lugar dela.</p></details></li>
+      <li>Decifre A7(♭9)/C♯: quais as notas e qual o baixo?
+        <details class="answer"><summary>Resposta</summary><p>A7(♭9) = 1 3 5 ♭7 ♭9 = A C♯ E G B♭. O baixo é C♯, a 3ª: o acorde está na 1ª inversão.</p></details></li>
+      <li>Por que E7(♯9) tem um G e um G♯ ao mesmo tempo?
+        <details class="answer"><summary>Resposta</summary><p>O G♯ é a 3ª maior. A ♯9 é F♯♯, que soa como G: na escrita é uma 9ª aumentada, não uma 3ª menor. O choque entre as duas é exatamente o som “sujo” desse acorde.</p></details></li>
+      <li>No violão: transforme o D aberto em Dsus2, Dsus4 e D6 (xx0202) mexendo só a 1ª e a 2ª corda. Qual nota cada mudança coloca?
+        <details class="answer"><summary>Resposta</summary><p>Dsus2: 1ª corda solta (E, a 2ª). Dsus4: 1ª corda casa 3 (G, a 4ª). D6: 2ª corda casa 0 (B, a 6ª) com a 1ª casa 2 (F♯), ou seja, xx0202.</p></details></li>
+    </ol>
+  </section>
+</main>
+</body>
+</html>

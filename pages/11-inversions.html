@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>11. Inversões e baixo invertido — Violão: do intervalo ao acorde</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <script src="../assets/theory.js" defer></script>
+  <script src="../assets/ebook.js" defer></script>
+</head>
+<body data-root="../" data-page="11-inversions">
+<main>
+  <header class="chapter-head">
+    <p class="kicker">Parte 4 — Formação de acordes</p>
+    <h1>Inversões e baixo invertido</h1>
+    <p class="lede">O nome do acorde diz quais notas tocar, mas não qual delas fica embaixo. Trocar a nota do baixo muda bastante o som e permite linhas de baixo que andam de grau em grau. É isso que significa a barra em cifras como C/E e D/F♯.</p>
+  </header>
+
+  <h2>Quem está no baixo</h2>
+  <p>O <strong>baixo</strong> é a nota mais grave que soa no acorde. No C aberto (x 3 2 0 1 0) é o C da 5ª corda: a fundamental está no baixo. Isso se chama <strong>posição fundamental</strong>.</p>
+  <p>Mas as notas de C (C, E, G) podem ser empilhadas em qualquer ordem. Conforme a nota que vai para baixo, o acorde está em uma <strong>inversão</strong>:</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Nome</th><th>Nota no baixo</th><th>Em C</th><th>Cifra</th></tr>
+      <tr><td>Posição fundamental</td><td><span class="iv iv-root">1</span></td><td>C</td><td><strong>C</strong></td></tr>
+      <tr><td>1ª inversão</td><td><span class="iv iv-third">3</span></td><td>E</td><td><strong>C/E</strong></td></tr>
+      <tr><td>2ª inversão</td><td><span class="iv iv-fifth">5</span></td><td>G</td><td><strong>C/G</strong></td></tr>
+      <tr><td>3ª inversão (só tétrades)</td><td><span class="iv iv-seventh">7</span></td><td>B♭ (em C7)</td><td><strong>C7/B♭</strong></td></tr>
+    </table>
+  </div>
+  <p>Na cifra, o que vem <strong>depois da barra é a nota do baixo</strong>. C/E se lê “Dó com baixo em Mi”. O acorde continua sendo C: só muda quem está embaixo.</p>
+
+  <h2>Inversões no violão</h2>
+  <p>A forma mais fácil de inverter um acorde aberto é trocar só a nota do baixo e manter o resto:</p>
+  <div class="diagram-row">
+    <chord-diagram name="C" frets="x32010" fingers="x32010" caption="Posição fundamental: C no baixo"></chord-diagram>
+    <chord-diagram name="C/E" frets="032010" fingers="032010" caption="1ª inversão: toque também a 6ª corda solta (E)"></chord-diagram>
+    <chord-diagram name="C/G" frets="332010" fingers="432010" caption="2ª inversão: dedo 4 na 6ª corda, casa 3 (G)"></chord-diagram>
+    <chord-diagram name="C7/B♭" frets="x12310" fingers="x12410" caption="3ª inversão: o B♭ (♭7) no baixo"></chord-diagram>
+  </div>
+  <p><play-notes notes="C3 E3 G3 C4 E4" mode="strum">C</play-notes> <play-notes notes="E2 C3 E3 G3 C4 E4" mode="strum">C/E</play-notes> <play-notes notes="G2 C3 E3 G3 C4 E4" mode="strum">C/G</play-notes> <play-notes notes="A#2 E3 A#3 C4 E4" mode="strum">C7/B♭</play-notes></p>
+  <p>Repare que C/E soa mais “leve” e C/G mais “suspenso”: a fundamental no baixo é o som mais estável. Por isso as inversões aparecem mais <em>no meio</em> de uma frase do que no final.</p>
+  <p>Você já tocou inversões sem saber. O D aberto com a 5ª corda solta soa como D/A; o A com a 6ª corda solta, como A/E. São 2ªs inversões (5ª no baixo).</p>
+
+  <h3>As três posições nas cordas agudas</h3>
+  <p>Nas três cordas mais agudas, as três notas de C podem ser empilhadas de três jeitos. Cada desenho tem uma nota diferente embaixo:</p>
+  <div class="diagram-row">
+    <chord-diagram name="C" frets="xxx553" fingers="xxx231" caption="C E G"></chord-diagram>
+    <chord-diagram name="C/E" frets="xxx988" fingers="xxx211" caption="E G C"></chord-diagram>
+    <chord-diagram name="C/G" frets="x x x 12 13 12" fingers="xxx121" caption="G C E"></chord-diagram>
+  </div>
+  <fret-board chord="C" positions="3:5 2:5 1:3 3:9 2:8 1:8 3:12 2:13 1:12" from="0" to="13" caption="As três posições de C nas cordas 3, 2 e 1: cada uma começa na nota mais aguda da anterior"></fret-board>
+
+  <div class="tip">
+    <span class="callout-title">Conferindo uma cifra com barra</span>
+    <p>Se a nota depois da barra é <span class="iv iv-root">1</span>, <span class="iv iv-third">3</span>, <span class="iv iv-fifth">5</span> ou <span class="iv iv-seventh">7</span> do acorde, é uma inversão. Em D/F♯: as notas de D são D, F♯, A, e F♯ é a 3ª. Então D/F♯ é D na 1ª inversão.</p>
+  </div>
+
+  <h2>Linhas de baixo</h2>
+  <p>O motivo principal das inversões no violão popular é fazer o <strong>baixo andar por grau conjunto</strong> (de nota vizinha em nota vizinha), em vez de pular. A sequência mais famosa desce a escala de C:</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Acorde</th><td class="c">C</td><td class="c">G/B</td><td class="c">Am</td><td class="c">Am/G</td><td class="c">F</td></tr>
+      <tr><th>Baixo</th><td class="c"><strong>C</strong></td><td class="c"><strong>B</strong></td><td class="c"><strong>A</strong></td><td class="c"><strong>G</strong></td><td class="c"><strong>F</strong></td></tr>
+    </table>
+  </div>
+  <div class="diagram-row">
+    <chord-diagram name="C" frets="x32010" fingers="x32010"></chord-diagram>
+    <chord-diagram name="G/B" frets="x20033" fingers="x10034" caption="B é a 3ª de G"></chord-diagram>
+    <chord-diagram name="Am" frets="x02210" fingers="x02310"></chord-diagram>
+    <chord-diagram name="Am7/G" title="Am/G" frets="3x2210" fingers="4x2310" caption="G é a ♭7 de Am: a rigor, Am7/G"></chord-diagram>
+    <chord-diagram name="F" frets="133211" fingers="134211"></chord-diagram>
+  </div>
+  <p><play-notes notes="C3 B2 A2 G2 F2" gap="0.6">ouvir só o baixo</play-notes> — uma linha descendente desse tipo é a marca de “A Whiter Shade of Pale” (Procol Harum).</p>
+
+  <p>O outro clássico é o <strong>D/F♯ no tom de G</strong>: entre G e Em, o baixo desce G → F♯ → E.</p>
+  <div class="diagram-row">
+    <chord-diagram name="G" frets="320003" fingers="210003"></chord-diagram>
+    <chord-diagram name="D/F♯" frets="2x0232" fingers="1x0243" caption="Dedo 1 (ou o polegar por cima do braço) na 6ª corda"></chord-diagram>
+    <chord-diagram name="Em" frets="022000" fingers="023000"></chord-diagram>
+  </div>
+  <p><play-notes notes="G2 F#2 E2" gap="0.6">ouvir o baixo G – F♯ – E</play-notes></p>
+
+  <h2>Baixo fora do acorde</h2>
+  <p>Às vezes a nota depois da barra <strong>não pertence ao acorde</strong>. Aí não é inversão: é um acorde tocado sobre um baixo estranho a ele, e o resultado é um som novo. O caso mais comum é <strong>F/G</strong>: as notas de F (F, A, C) com G no baixo. Ele soa como um G7 “suave” (G com F, A e C por cima: ♭7, 9 e 4, sem a 3ª) e é muito usado antes de C.</p>
+  <fret-board positions="6:3 4:3 3:2 2:1" from="0" to="5" caption="F/G: G na 6ª corda, e F, A, C nas cordas 4, 3 e 2 (3 x 3 2 1 x)"></fret-board>
+  <p><play-notes notes="G2 F3 A3 C4" mode="strum">ouvir F/G</play-notes> <play-notes notes="C3 E3 G3 C4 E4" mode="strum">resolver em C</play-notes></p>
+  <p>Outros exemplos são D/C e C/D. Para saber se é inversão ou baixo estranho, faça o teste da dica acima: a nota do baixo está no acorde?</p>
+
+  <div class="key">
+    <span class="callout-title">Guarde isto</span>
+    <p>Depois da barra vem o <strong>baixo</strong>. Se o baixo é a 3ª, o acorde está na 1ª inversão (C/E); se é a 5ª, na 2ª (C/G); se é a 7ª, na 3ª (C7/B♭). Inversões servem para o baixo andar de nota vizinha em nota vizinha: C – G/B – Am – Am/G – F.</p>
+  </div>
+
+  <section class="exercises">
+    <h2>Exercícios</h2>
+    <ol>
+      <li>Em que inversão está cada acorde: G/D, Am/C, E7/D?
+        <details class="answer"><summary>Resposta</summary><p>G/D: D é a 5ª de G, 2ª inversão. Am/C: C é a ♭3 de Am, 1ª inversão. E7/D: D é a ♭7 de E7, 3ª inversão.</p></details></li>
+      <li>Qual nota fica no baixo em A/C♯? E ela é parte do acorde?
+        <details class="answer"><summary>Resposta</summary><p>C♯, que é a 3ª de A (A C♯ E). Então é a 1ª inversão de A.</p></details></li>
+      <li>G/A é uma inversão? Por quê?
+        <details class="answer"><summary>Resposta</summary><p>Não. As notas de G são G, B e D; o A não faz parte. É G tocado sobre um baixo estranho.</p></details></li>
+      <li>Complete a linha de baixo descendente no tom de G: G – D/F♯ – Em – ? – C.
+        <details class="answer"><summary>Resposta</summary><p>Em/D (ou Em7/D): o baixo desce G – F♯ – E – D – C.</p></details></li>
+      <li>No violão: monte Am/C a partir do Am aberto, trocando só o baixo.
+        <details class="answer"><summary>Resposta</summary><p>x 3 2 2 1 0: o dedo 3 (ou 4) vai para a 5ª corda, casa 3 (C), e o resto do Am continua igual. O dedilhado fica x 4 2 3 1 0.</p></details></li>
+    </ol>
+  </section>
+</main>
+</body>
+</html>

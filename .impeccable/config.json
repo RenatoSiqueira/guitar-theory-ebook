@@ -1,0 +1,161 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/01-notes.html"
+        ],
+        "createdAt": "2026-10-13T11:37:31.188Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/02-fretboard.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.496Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/03-intervals.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.509Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/04-intervals-on-the-neck.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.528Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/05-major-scale.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.542Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/06-major-scale-on-the-neck.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.564Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/07-triads.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.586Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/08-open-chords.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.608Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/09-caged.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.630Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/10-seventh-chords.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.653Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/11-inversions.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.675Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/12-chord-symbols.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.693Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/13-harmonic-field.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.713Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/14-progressions.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.735Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/15-transposition.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.754Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/appendix-a-chord-formulas.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.777Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "pages/appendix-b-harmonic-fields.html"
+        ],
+        "createdAt": "2026-10-13T11:44:54.798Z",
+        "reason": "agent decision: kicker is the book's part marker (Parte N — …), a structural ebook convention, not decoration"
+      }
+    ]
+  }
+}
